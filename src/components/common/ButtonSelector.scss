@@ -1,0 +1,33 @@
+.button-selector {
+  display: flex;
+  flex-direction: row;
+
+  input[type="radio"] {
+    visibility: hidden;
+  }
+
+  .select-button {
+    + label {
+      width: 6rem;
+      height: 5rem;
+      padding: 0.3rem;
+      margin: 0 1rem 1rem 0;
+      border-radius: 0.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      background-color: #d3d3d3;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+    }
+
+    + label:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    &:checked + label {
+      background-color: #791abe;
+    }
+  }
+}

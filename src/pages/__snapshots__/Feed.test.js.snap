@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#render Snapshot test - Feed page is rendered correctly 1`] = `
+<div
+  className="page-container"
+>
+  <h2
+    className="title"
+  >
+    Aula music tops
+  </h2>
+  <div
+    className="button-selector"
+    role="radiogroup"
+  >
+    <div>
+      <input
+        checked={true}
+        className="select-button"
+        id="topalbums"
+        name="select-option"
+        onChange={[Function]}
+        type="radio"
+        value="topalbums"
+      />
+      <label
+        htmlFor="topalbums"
+      >
+        Top 100 Albums
+      </label>
+    </div>
+    <div>
+      <input
+        checked={false}
+        className="select-button"
+        id="topsongs"
+        name="select-option"
+        onChange={[Function]}
+        type="radio"
+        value="topsongs"
+      />
+      <label
+        htmlFor="topsongs"
+      >
+        Top 100 Songs
+      </label>
+    </div>
+  </div>
+  <div
+    className="search-bar"
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search for..."
+      type="text"
+    />
+  </div>
+  <ul
+    className="chart-container"
+  >
+    <li
+      className="row header"
+    >
+      <div
+        className="cell"
+      >
+        #
+      </div>
+      <div
+        className="cell"
+      >
+        Cover
+      </div>
+      <div
+        className="cell"
+      >
+        Title
+      </div>
+      <div
+        className="cell"
+      >
+        Artist
+      </div>
+      <div
+        className="cell"
+      >
+        Genre
+      </div>
+      <div
+        className="cell"
+      >
+        Tracks No.
+      </div>
+      <div
+        className="cell"
+      >
+        Price
+      </div>
+      <div
+        className="cell"
+      >
+        Release Date
+      </div>
+    </li>
+    <div>
+      No items found
+    </div>
+  </ul>
+</div>
+`;

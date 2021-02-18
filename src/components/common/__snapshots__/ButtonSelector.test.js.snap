@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#render Snapshot test - Buttons are rendered correctly 1`] = `
+<div
+  className="button-selector"
+  role="radiogroup"
+>
+  <div>
+    <input
+      checked={true}
+      className="select-button"
+      id="test-id1"
+      name="select-option"
+      onChange={[MockFunction]}
+      type="radio"
+      value="test-value1"
+    />
+    <label
+      htmlFor="test-id1"
+    >
+      Test 1
+    </label>
+  </div>
+  <div>
+    <input
+      checked={false}
+      className="select-button"
+      id="test-id2"
+      name="select-option"
+      onChange={[MockFunction]}
+      type="radio"
+      value="test-value2"
+    />
+    <label
+      htmlFor="test-id2"
+    >
+      Test 2
+    </label>
+  </div>
+</div>
+`;

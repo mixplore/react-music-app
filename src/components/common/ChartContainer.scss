@@ -1,0 +1,15 @@
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  height: 60vh;
+  padding: 0;
+  overflow-y: auto;
+  .row:nth-child(2n+1) {
+    background: #B3C4E5;
+  }
+  .row:nth-child(1) {
+      position: sticky;
+      top: 0;
+  }
+}
